@@ -3,7 +3,7 @@ class StationsController < ApplicationController
 
   # GET /stations or /stations.json
   def index
-    @stations = Station.all
+    @stations = Station.first(50)
   end
 
   # GET /stations/1 or /stations/1.json
