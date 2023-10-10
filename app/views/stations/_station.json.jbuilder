@@ -1,0 +1,2 @@
+json.extract! station, :id, :id_station, :latitude, :longitude, :cp, :pop, :adresse, :ville, :services, :prix, :horaires, :geom, :gazole_maj, :gazole_prix, :sp95_maj, :sp95_prix, :e85_maj, :e85_prix, :gplc_maj, :gplc_prix, :e10_maj, :e10_prix, :sp98_maj, :sp98_prix, :carburants_disponibles, :carburants_indisponibles, :horaires_automate_24_24, :services_service, :departement, :code_departement, :region, :code_region, :created_at, :updated_at
+json.url station_url(station, format: :json)

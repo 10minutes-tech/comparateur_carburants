@@ -1,0 +1,67 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_station: 1
+  latitude: 1.5
+  longitude: 1.5
+  cp: MyString
+  pop: MyString
+  adresse: MyString
+  ville: MyString
+  services: MyString
+  prix: MyString
+  horaires: MyString
+  geom: MyString
+  gazole_maj: MyString
+  gazole_prix: MyString
+  sp95_maj: MyString
+  sp95_prix: MyString
+  e85_maj: MyString
+  e85_prix: MyString
+  gplc_maj: MyString
+  gplc_prix: MyString
+  e10_maj: MyString
+  e10_prix: MyString
+  sp98_maj: MyString
+  sp98_prix: MyString
+  carburants_disponibles: MyString
+  carburants_indisponibles: MyString
+  horaires_automate_24_24: MyString
+  services_service: MyString
+  departement: MyString
+  code_departement: MyString
+  region: MyString
+  code_region: MyString
+
+two:
+  id_station: 1
+  latitude: 1.5
+  longitude: 1.5
+  cp: MyString
+  pop: MyString
+  adresse: MyString
+  ville: MyString
+  services: MyString
+  prix: MyString
+  horaires: MyString
+  geom: MyString
+  gazole_maj: MyString
+  gazole_prix: MyString
+  sp95_maj: MyString
+  sp95_prix: MyString
+  e85_maj: MyString
+  e85_prix: MyString
+  gplc_maj: MyString
+  gplc_prix: MyString
+  e10_maj: MyString
+  e10_prix: MyString
+  sp98_maj: MyString
+  sp98_prix: MyString
+  carburants_disponibles: MyString
+  carburants_indisponibles: MyString
+  horaires_automate_24_24: MyString
+  services_service: MyString
+  departement: MyString
+  code_departement: MyString
+  region: MyString
+  code_region: MyString

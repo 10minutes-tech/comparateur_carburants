@@ -1,0 +1,172 @@
+<%= form_with(model: station) do |form| %>
+  <% if station.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(station.errors.count, "error") %> prohibited this station from being saved:</h2>
+
+      <ul>
+        <% station.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :id_station, style: "display: block" %>
+    <%= form.number_field :id_station %>
+  </div>
+
+  <div>
+    <%= form.label :latitude, style: "display: block" %>
+    <%= form.text_field :latitude %>
+  </div>
+
+  <div>
+    <%= form.label :longitude, style: "display: block" %>
+    <%= form.text_field :longitude %>
+  </div>
+
+  <div>
+    <%= form.label :cp, style: "display: block" %>
+    <%= form.text_field :cp %>
+  </div>
+
+  <div>
+    <%= form.label :pop, style: "display: block" %>
+    <%= form.text_field :pop %>
+  </div>
+
+  <div>
+    <%= form.label :adresse, style: "display: block" %>
+    <%= form.text_field :adresse %>
+  </div>
+
+  <div>
+    <%= form.label :ville, style: "display: block" %>
+    <%= form.text_field :ville %>
+  </div>
+
+  <div>
+    <%= form.label :services, style: "display: block" %>
+    <%= form.text_field :services %>
+  </div>
+
+  <div>
+    <%= form.label :prix, style: "display: block" %>
+    <%= form.text_field :prix %>
+  </div>
+
+  <div>
+    <%= form.label :horaires, style: "display: block" %>
+    <%= form.text_field :horaires %>
+  </div>
+
+  <div>
+    <%= form.label :geom, style: "display: block" %>
+    <%= form.text_field :geom %>
+  </div>
+
+  <div>
+    <%= form.label :gazole_maj, style: "display: block" %>
+    <%= form.text_field :gazole_maj %>
+  </div>
+
+  <div>
+    <%= form.label :gazole_prix, style: "display: block" %>
+    <%= form.text_field :gazole_prix %>
+  </div>
+
+  <div>
+    <%= form.label :sp95_maj, style: "display: block" %>
+    <%= form.text_field :sp95_maj %>
+  </div>
+
+  <div>
+    <%= form.label :sp95_prix, style: "display: block" %>
+    <%= form.text_field :sp95_prix %>
+  </div>
+
+  <div>
+    <%= form.label :e85_maj, style: "display: block" %>
+    <%= form.text_field :e85_maj %>
+  </div>
+
+  <div>
+    <%= form.label :e85_prix, style: "display: block" %>
+    <%= form.text_field :e85_prix %>
+  </div>
+
+  <div>
+    <%= form.label :gplc_maj, style: "display: block" %>
+    <%= form.text_field :gplc_maj %>
+  </div>
+
+  <div>
+    <%= form.label :gplc_prix, style: "display: block" %>
+    <%= form.text_field :gplc_prix %>
+  </div>
+
+  <div>
+    <%= form.label :e10_maj, style: "display: block" %>
+    <%= form.text_field :e10_maj %>
+  </div>
+
+  <div>
+    <%= form.label :e10_prix, style: "display: block" %>
+    <%= form.text_field :e10_prix %>
+  </div>
+
+  <div>
+    <%= form.label :sp98_maj, style: "display: block" %>
+    <%= form.text_field :sp98_maj %>
+  </div>
+
+  <div>
+    <%= form.label :sp98_prix, style: "display: block" %>
+    <%= form.text_field :sp98_prix %>
+  </div>
+
+  <div>
+    <%= form.label :carburants_disponibles, style: "display: block" %>
+    <%= form.text_field :carburants_disponibles %>
+  </div>
+
+  <div>
+    <%= form.label :carburants_indisponibles, style: "display: block" %>
+    <%= form.text_field :carburants_indisponibles %>
+  </div>
+
+  <div>
+    <%= form.label :horaires_automate_24_24, style: "display: block" %>
+    <%= form.text_field :horaires_automate_24_24 %>
+  </div>
+
+  <div>
+    <%= form.label :services_service, style: "display: block" %>
+    <%= form.text_field :services_service %>
+  </div>
+
+  <div>
+    <%= form.label :departement, style: "display: block" %>
+    <%= form.text_field :departement %>
+  </div>
+
+  <div>
+    <%= form.label :code_departement, style: "display: block" %>
+    <%= form.text_field :code_departement %>
+  </div>
+
+  <div>
+    <%= form.label :region, style: "display: block" %>
+    <%= form.text_field :region %>
+  </div>
+
+  <div>
+    <%= form.label :code_region, style: "display: block" %>
+    <%= form.text_field :code_region %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
